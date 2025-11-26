@@ -1,3 +1,10 @@
-<p>home works!</p>
-<button routerLink="/acerca">Ir a Acerca</button>
-<button routerLink="/">Ir a Home</button>
+<div class="home-container">
+  <h1>Bienvenido a Home</h1>
+  <p>Esta es la página principal.</p>
+  
+  <nav>
+    <button routerLink="/acerca" routerLinkActive="active">Ir a Acerca</button>
+  </nav>
+
+  <router-outlet></router-outlet>
+</div>
