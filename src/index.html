@@ -8,6 +8,13 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <app-root></app-root>
+  <app-root>
+    <nav>
+      <a routerLink="/home">Home</a>
+      <a routerLink="/acerca" routerLinkActive="active">Acerca</a>
+    </nav>
+
+    <router-outlet></router-outlet>
+  </app-root>
 </body>
 </html>
